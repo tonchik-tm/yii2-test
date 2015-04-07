@@ -1,0 +1,28 @@
+{
+    "name": "tonchik-tm/yii2-test",
+    "description": "My first extension for yii2",
+    "keywords": ["yii2", "test", "extension"],
+    "type": "yii2-extension",
+    "license": "GNU GENERAL PUBLIC LICENSE",
+    "support": {
+        "issues": "https://github.com/tonchik-tm/yii2-test/issues",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "source": "https://github.com/tonchik-tm/yii2-test"
+    },
+    "authors": [
+        {
+            "name": "Anton Nikolaev",
+            "nickname": "tonchik™",
+            "email": "tonchik@tonchik.net"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tonchik-tm\\test\\": ""
+        }
+    }
+}
